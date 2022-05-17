@@ -1,0 +1,54 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.head {
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  width: 100%;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.head h2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 46px;
+}
+.headtext {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+}
