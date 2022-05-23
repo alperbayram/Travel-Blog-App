@@ -31,8 +31,8 @@ export default function Slider() {
             <SwiperSlide>
               <img
                 src={image.href}
-                alt="food"
-                className="img-fluid bg-transparent"
+                alt="slider"
+                className=""
               />
               <div className="head">
                 <div>

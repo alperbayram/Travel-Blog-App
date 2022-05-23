@@ -1,0 +1,33 @@
+#bigpostcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bigposttext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  color: #ffffff;
+}
+
+.bigposttext h2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 46px;
+}
+.bigposttext2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+}
+
+#bigpostimg {
+  height: 700px;
+  width: 100%;
+}

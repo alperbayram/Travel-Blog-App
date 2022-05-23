@@ -3,8 +3,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        Image: "url('/img/Image.png')",
+        bigpost: "url('../public/img/bigpost.png')",
       },
+      backgroundSize: {
+        '16': '37rem',
+      }
     },
   },
   plugins: [],
