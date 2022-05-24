@@ -30,4 +30,20 @@
 #bigpostimg {
   height: 700px;
   width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+#blogmetro {
+  position: relative;
+  text-align: start;
+  color: white;
+}
+.blogmetrotext {
+  position: absolute;
+  bottom: 10%;
+  left: 16px;
+  font-style: normal;
+  padding: 10px;
+  color: #ffffff;
 }
