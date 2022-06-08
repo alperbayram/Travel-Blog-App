@@ -3,9 +3,9 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { Link } from "react-router-dom";
 const navigation = [
   { name: 'Home', href: '/', current: false },
-  { name: 'About', href: '/about', current: false },
-  { name: 'Projects', href: '/', current: false },
-  { name: 'Calendar', href: '/', current: false },
+  { name: 'Home2', href: '/home2', current: false },
+  { name: 'Single Page', href: '/', current: false },
+  { name: 'Single Page2', href: '/', current: false },
 ]
 
 function classNames(...classes) {

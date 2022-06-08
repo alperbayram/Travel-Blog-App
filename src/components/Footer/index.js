@@ -3,9 +3,9 @@ import React from "react";
 function Footer() {
   return (
     <div className="">
-      <footer class="text-center lg:text-left bg-gray-800  text-white">
+      <footer class="text-center lg:text-left bg-gray-900  text-white">
         <div class="mx-6 py-10 text-center md:text-left">
-          <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-10">
             <div class="">
               <h6
                 class="
@@ -26,22 +26,22 @@ function Footer() {
                 Explorate
               </h6>
               <p class="mb-4">
-                <a href="#!" class="text-gray-400">
+                <a href="#!" class="text-gray-200">
                   About
                 </a>
               </p>
               <p class="mb-4">
-                <a href="#!" class="text-gray-400">
+                <a href="#!" class="text-gray-200">
                   Partners
                 </a>
               </p>
               <p class="mb-4">
-                <a href="#!" class="text-gray-400">
+                <a href="#!" class="text-gray-200">
                   Job Opportunities
                 </a>
               </p>
               <p>
-                <a href="#!" class="text-gray-400">
+                <a href="#!" class="text-gray-200">
                   Advertise
                 </a>
               </p>
@@ -51,7 +51,7 @@ function Footer() {
                 Headquarter
               </h6>
               <p class="mb-4">
-                <a href="#!" class="text-gray-400">
+                <a href="#!" class="text-gray-200">
                   191 Middleville Road, <br />
                   NY 1001, Sydney Australia
                 </a>
@@ -62,7 +62,7 @@ function Footer() {
                 Contact
               </h6>
               <div class="flex justify-center md:justify-start">
-                <a href="#!" class="mr-6 text-gray-100">
+                <a href="#!" class="mr-6 text-gray-200">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -79,7 +79,7 @@ function Footer() {
                     ></path>
                   </svg>
                 </a>
-                <a href="#!" class="mr-6 text-gray-100">
+                <a href="#!" class="mr-6 text-gray-200">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -96,7 +96,7 @@ function Footer() {
                     ></path>
                   </svg>
                 </a>
-                <a href="#!" class="mr-6 text-gray-100">
+                <a href="#!" class="mr-6 text-gray-200">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -113,7 +113,7 @@ function Footer() {
                     ></path>
                   </svg>
                 </a>
-                <a href="#!" class="mr-6 text-gray-100">
+                <a href="#!" class="mr-6 text-gray-200">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -130,7 +130,7 @@ function Footer() {
                     ></path>
                   </svg>
                 </a>
-                <a href="#!" class="text-gray-100">
+                <a href="#!" class="text-gray-200">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -151,7 +151,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div class="text-start text-white p-6 bg-gray-700">
+        <div class="text-start text-white p-6 bg-gray-800">
           <span>2022 | alperbayram</span>
         </div>
       </footer>
