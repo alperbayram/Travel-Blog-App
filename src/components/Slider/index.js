@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./styles.css";
 
-import { Pagination } from "swiper";
+import { Autoplay,Pagination } from "swiper";
 const images = [
   { id: 1, href: "./img/slider/Image.png" },
   {
@@ -23,7 +23,11 @@ export default function Slider() {
         pagination={{
           dynamicBullets: true,
         }}
-        modules={[Pagination]}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay,Pagination]}
         className="mySwiper "
       >
         <div class="container ">

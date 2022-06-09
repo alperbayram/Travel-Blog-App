@@ -1,0 +1,35 @@
+#blogcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.blogposttext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  color: #ffffff;
+}
+
+.blogposttext h2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 46px;
+}
+.blogposttext2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+}
+
+#blogpostimg {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
