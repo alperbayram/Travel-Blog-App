@@ -65,14 +65,14 @@ function SinglePage2() {
         />
         <div className="headerposttext">
           <div>
-            <span>tag</span>
+            <span className="md:text-sm text-xs">tag</span>
           </div>
           <h2>
             Richird Norton photorealistic <br />
             rendering as real photos
           </h2>
           <div className="headerposttext2">
-            <p>
+            <p className="md:text-sm text-xs leading-normal">
               Progressively incentivize cooperative systems through technically
               sound functionalities. The credibly productivate seamless data.
             </p>
@@ -82,7 +82,7 @@ function SinglePage2() {
       </div>
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl ">
         <div className="grid grid-cols-6 gap-5">
-          <div className="col-span-1 flex text-gray-500">
+          <div className="md:col-span-2 col-span-6 flex text-gray-500 justify-center">
             <span>08.08.2022</span>
             <span className=" px-2">
               <svg
@@ -97,7 +97,7 @@ function SinglePage2() {
             </span>
             <span>4 minutes</span>
           </div>
-          <div className="col-start-2 col-end-7">
+          <div className="md:col-start-3 md:col-end-7 col-span-7">
             <p className="text-base font-normal leading-6 text-justify text-gray-500">
               Seamlessly syndicate cutting-edge architectures rather than
               collaborative collaboration and idea-sharing. Proactively incubate
@@ -141,7 +141,7 @@ function SinglePage2() {
               seamless meta-services with impactful opportunities. Distinctively
               transition virtual outsourcing with focused e-tailers.
               <br />
-              <a href="/" class="leading-relaxed text-orange-300 text-5xl">
+              <a href="/" class="leading-relaxed text-orange-300 md:text-5xl text-2xl">
                 “ Monotonectally seize superior mindshare rather than efficient
                 technology. ”{" "}
               </a>

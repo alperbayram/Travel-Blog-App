@@ -123,9 +123,9 @@ function Home() {
           <h2 className="text-4xl font-extrabold tracking-tight text-gray-500">
             Popular topics
           </h2>
-          <div className="flex justify-between py-3">
-            <div className="flex justify-start">
-              <p className="text-xs font-extrabold tracking-tight text-gray-500  hover:text-amber-500">
+          <div className="sm:flex md:justify-between justify-start py-3">
+            <div className="sm:flex">
+              <p className="text-xs font-extrabold tracking-tight text-gray-500  hover:text-amber-500 px-3">
                 All
               </p>
               <p className="text-xs font-extrabold tracking-tight text-gray-500 hover:text-amber-500 px-3">
@@ -145,7 +145,9 @@ function Home() {
               </p>
             </div>
             <div>
-              <p className="text-xs font-extrabold tracking-tight text-gray-500 hover:text-amber-500">View All</p>
+              <p className="text-xs font-extrabold tracking-tight text-gray-500 hover:text-amber-500 px-3">
+                View All
+              </p>
             </div>
           </div>
           <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
@@ -166,7 +168,9 @@ function Home() {
                         {blog.header}
                       </a>
                     </h3>
-                    <p className="mt-1 text-sm text-gray-500 text-justify">{blog.title}</p>
+                    <p className="mt-1 text-sm text-gray-500 text-justify">
+                      {blog.title}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -198,37 +202,37 @@ function Home() {
           </div>
         </div>
       </div>
-        <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-          <h2 className="text-4xl font-extrabold tracking-tight text-gray-500">
-            Editor’s Pick
-          </h2>
-          <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-1 lg:grid-cols-3 xl:gap-x-8">
-            {blogmetro.map((blog) => (
-              <div key={blog.id} className="group relative " id="blogmetro">
-                <div className="w-full min-h-8 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
-                  <img
-                    src={blog.imageSrc}
-                    alt={blog.name}
-                    className="w-full h-full object-center object-cover lg:w-full lg:h-full"
-                  />
-                </div>
-                <div className="mt-4 flex justify-between">
-                  <div className="blogmetrotext">
-                    <span>{blog.time}</span>
-                    <h2 className="text-lg font-semibold ">
-                      <a href={blog.href}>
-                        <span aria-hidden="true" className="absolute inset-0" />
-                        {blog.header}
-                      </a>
-                    </h2>
-                    <p className="mt-1 text-sm">{blog.title}</p>
-                  </div>
+      <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+        <h2 className="text-4xl font-extrabold tracking-tight text-gray-500">
+          Editor’s Pick
+        </h2>
+        <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-1 lg:grid-cols-3 xl:gap-x-8">
+          {blogmetro.map((blog) => (
+            <div key={blog.id} className="group relative " id="blogmetro">
+              <div className="w-full min-h-8 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+                <img
+                  src={blog.imageSrc}
+                  alt={blog.name}
+                  className="w-full h-full object-center object-cover lg:w-full lg:h-full"
+                />
+              </div>
+              <div className="mt-4 flex justify-between">
+                <div className="blogmetrotext">
+                  <span>{blog.time}</span>
+                  <h2 className="text-lg font-semibold ">
+                    <a href={blog.href}>
+                      <span aria-hidden="true" className="absolute inset-0" />
+                      {blog.header}
+                    </a>
+                  </h2>
+                  <p className="mt-1 text-sm">{blog.title}</p>
                 </div>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
+    </div>
   );
 }
 

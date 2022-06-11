@@ -31,9 +31,9 @@
 }
 .head {
   position: absolute;
-  top: 50%;
-  left: 100px;
-  width: 100%;
+  top: 30%;
+  left: 15%;
+  margin: 10px;
   font-style: normal;
   color: #ffffff;
 }
@@ -46,9 +46,52 @@
   line-height: 46px;
 }
 .headtext {
+  display: flex;
+  justify-content: space-between;
+  width: 720px;
+  padding-top: 15px;
+}
+.headtext p {
   font-family: "Lora";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 15px;
+  font-size: 24px;
+  line-height: 25px;
+}
+
+@media only screen and (max-width: 960px) {
+  .head h2 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .headtext {
+    font-size: 12px;
+    width: 420px;
+  }
+  .headtext p {
+    font-size: 12px;
+  }
+  .head {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: normal;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .head h2 {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .headtext {
+    font-size: 6px;
+    width: 320px;
+  }
+  .headtext p {
+    font-size: 6px;
+    line-height: normal;
+  }
 }

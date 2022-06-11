@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./styles.css";
 
-import { Autoplay,Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 const images = [
   { id: 1, href: "./img/slider/Image.png" },
   {
@@ -27,27 +27,23 @@ export default function Slider() {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        modules={[Autoplay,Pagination]}
+        modules={[Autoplay, Pagination]}
         className="mySwiper "
       >
         <div class="container ">
           {images.map((image) => (
             <SwiperSlide>
-              <img
-                src={image.href}
-                alt="slider"
-                className=""
-              />
+              <img src={image.href} alt="slider" className="" />
               <div className="head">
-                <div>
-                  <span>tag</span>
+                <div className="bg-gray-500 rounded-lg sm:w-24 flex justify-center mb-5">
+                  <span className="text-white uppercase xl:text-md text-xs">Adventure</span>
                 </div>
                 <h2>
                   Richird Norton photorealistic <br />
                   rendering as real photos
                 </h2>
                 <div className="headtext">
-                  <span>08.08.2021</span>
+                  <span className="pr-8">08.08.2021</span>
                   <p>
                     Progressively incentivize cooperative systems through
                     technically sound functionalities. The credibly productivate

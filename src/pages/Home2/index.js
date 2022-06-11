@@ -136,9 +136,9 @@ function Home2() {
           <h2 className="text-4xl font-extrabold tracking-tight text-gray-500">
             Popular topics
           </h2>
-          <div className="flex justify-between py-3">
-            <div className="flex justify-start">
-              <p className="text-xs font-extrabold tracking-tight text-gray-500  hover:text-amber-500">
+          <div className="sm:flex md:justify-between justify-start  py-3">
+            <div className="sm:flex justify-start">
+              <p className="text-xs font-extrabold tracking-tight text-gray-500  hover:text-amber-500 px-3">
                 All
               </p>
               <p className="text-xs font-extrabold tracking-tight text-gray-500 hover:text-amber-500 px-3">
@@ -158,7 +158,7 @@ function Home2() {
               </p>
             </div>
             <div>
-              <p className="text-xs font-extrabold tracking-tight text-gray-500 hover:text-amber-500">
+              <p className="text-xs font-extrabold tracking-tight text-gray-500 hover:text-amber-500 px-3">
                 View All
               </p>
             </div>
@@ -236,7 +236,7 @@ function Home2() {
         <h2 className="text-4xl font-extrabold tracking-tight text-gray-500">
           Editor’s Pick
         </h2>
-        <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-1 lg:grid-cols-2 xl:gap-x-8">
+        <div className="mt-6 grid grid-cols-1 gap-y-6 gap-x-6 sm:grid-cols-1 lg:grid-cols-2 xl:gap-x-8">
           {editorpicks.map((blog) => (
             <div key={blog.id} className="group relative " id="blogmetro">
               <div className="w-full min-h-8 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
@@ -248,14 +248,14 @@ function Home2() {
               </div>
               <div className="mt-4 flex justify-between">
                 <div className="blogmetrotext">
-                  <span>{blog.time}</span>
-                  <h2 className="text-lg font-semibold ">
+                  <span className="md:text-sm text-xs">{blog.time}</span>
+                  <h2 className="md:text-lg font-semibold text-sm">
                     <a href={blog.href}>
                       <span aria-hidden="true" className="absolute inset-0" />
                       {blog.header}
                     </a>
                   </h2>
-                  <p className="mt-1 text-sm">{blog.title}</p>
+                  <p className="mt-1 first-letter md:text-sm text-xs">{blog.title}</p>
                 </div>
               </div>
             </div>

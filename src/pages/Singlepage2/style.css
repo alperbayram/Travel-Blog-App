@@ -1,35 +1,50 @@
 #headercontainer {
-    position: relative;
-    color: white;
-  }
+  position: relative;
+  color: white;
+}
+.headerposttext {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  color: #ffffff;
+}
+
+.headerposttext h2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 46px;
+}
+.headerposttext2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+}
+
+#blogpostimg {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+@media only screen and (max-width: 600px) {
   .headerposttext {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
     font-style: normal;
     color: #ffffff;
+    font-size: 24px;
+    line-height: 25px;
   }
-  
   .headerposttext h2 {
     font-family: "Lora";
     font-style: normal;
     font-weight: 700;
-    font-size: 42px;
-    line-height: 46px;
+    font-size: 24px;
+    line-height: 20px;
   }
-  .headerposttext2 {
-    font-family: "Lora";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 15px;
-  }
-  
-  #blogpostimg {
-    height: 700px;
-    width: 100%;
-    object-fit: cover;
-    object-position: bottom;
-  }
-  
+}

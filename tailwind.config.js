@@ -7,7 +7,13 @@ module.exports = {
       },
       backgroundSize: {
         '16': '37rem',
-      }
+      },
+      colors: {
+        'footer-color': '#212529',
+        'background-color2': '#343A40',
+        'nav-underline':'#D4A373',
+
+      },
     },
   },
   plugins: [],

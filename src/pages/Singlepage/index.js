@@ -52,25 +52,25 @@ function SinglePage() {
           id="blogpostimg"
         />
         <div className="blogposttext">
-          <div>
-            <span>tag</span>
+          <div className="">
+            <span className=" text-white">tag</span>
           </div>
           <h2>
             Richird Norton photorealistic <br />
             rendering as real photos
           </h2>
           <div className="blogposttext2">
-            <p>
+            <p className="leading-loose md:text-lg text-sm">
               Progressively incentivize cooperative systems through technically
               sound functionalities. The credibly productivate seamless data.
             </p>
-            <span>By Jennifer Lawrence</span>
+            <span className="md:text-md text-xs">By Jennifer Lawrence</span>
           </div>
         </div>
       </div>
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl ">
-        <div className="grid grid-cols-6 gap-5">
-          <div className="col-span-1 flex text-gray-500">
+        <div className="grid grid-cols-7 gap-5">
+          <div className="md:col-span-2 col-span-6 flex text-gray-500 justify-center">
             <span>08.08.2022</span>
             <span className=" px-2">
               <svg
@@ -85,8 +85,8 @@ function SinglePage() {
             </span>
             <span>4 minutes</span>
           </div>
-          <div className="col-start-2 col-end-7">
-            <p className="text-base font-normal leading-6 text-justify text-gray-500">
+          <div className="md:col-start-3 md:col-end-8 col-span-7">
+            <p className="md:text-base text-sm font-normal leading-6 text-justify text-gray-500">
               Seamlessly syndicate cutting-edge architectures rather than
               collaborative collaboration and idea-sharing. Proactively incubate
               visionary interfaces whereas premium benefits. Seamlessly
@@ -114,7 +114,7 @@ function SinglePage() {
               seamless meta-services with impactful opportunities. Distinctively
               transition virtual outsourcing with focused e-tailers.
               <br />
-              <a href="/" class="leading-relaxed text-orange-300 text-5xl">
+              <a href="/" class="leading-relaxed text-orange-300 md:text-3xl  text-xl">
                 “ Monotonectally seize superior mindshare rather than efficient
                 technology. ”{" "}
               </a>
@@ -172,7 +172,7 @@ function SinglePage() {
       </div>
       <div className="bg-neutral-100">
         <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 ">
-          <h2 className="text-4xl font-extrabold tracking-tight text-gray-500">
+          <h2 className="md:text-4xl text-2xl font-extrabold tracking-tight text-gray-500">
             Editor’s Pick
           </h2>
           <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-1 lg:grid-cols-3 xl:gap-x-8">
@@ -187,14 +187,14 @@ function SinglePage() {
                 </div>
                 <div className="mt-4 flex justify-between">
                   <div className="blogmetrotext">
-                    <span>{blog.time}</span>
-                    <h2 className="text-lg font-semibold ">
+                    <span className="md:text-sm text-xs">{blog.time}</span>
+                    <h2 className="md:text-lg text-md font-semibold ">
                       <a href={blog.href}>
                         <span aria-hidden="true" className="absolute inset-0" />
                         {blog.header}
                       </a>
                     </h2>
-                    <p className="mt-1 text-sm">{blog.title}</p>
+                    <p className="mt-1 md:text-sm text-xs">{blog.title}</p>
                   </div>
                 </div>
               </div>
