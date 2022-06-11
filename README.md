@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+figma link : https://www.figma.com/file/dsBn5Qy3eLNuXa3ZasLHFd/RUNO-Minimal-Blog-Template-(Community)?node-id=0%3A1
+
+live link : https://travel-app-tailwindcss.vercel.app/
 
 ## Available Scripts
 
